@@ -66,7 +66,6 @@ authorize(async function(auth) {
 
     // grab table row count to determine sheets offset
     let skip = docData.body.content.find((item) => item.table).table.rows;
-
     
     // batch update to google doc
     // only inserts empty rows atm
