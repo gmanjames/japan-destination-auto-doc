@@ -3,7 +3,7 @@ module.exports = (results) => `
     <!-- Mock page that will eventually be generated -->
     <html lang="en">
         <head>
-            <meta http-equiv="Content-Type" content="text/html;utf-8">
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
             <title>Japan Destinations 2019</title>
             <style>
                 /* resets */
@@ -66,8 +66,8 @@ module.exports = (results) => `
             </section>
             <script>
                 'use strict';
-                
-                
+
+
             </script>
         </body>
     </html>

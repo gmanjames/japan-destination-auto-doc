@@ -14,7 +14,7 @@ function getSheetData(auth) {
         sheets.spreadsheets.values.get(
             {
                 spreadsheetId: '1_Z8PhD6A0TjANT6yNr1nFcAVNMUpS1kKm3MTWV4sQ50',
-                range: 'Form Responses 1!A:D'
+                range: 'Form Responses 1!A2:D'
             }
             , (err, res) => {
                 if (err) return reject(err);
