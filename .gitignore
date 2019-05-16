@@ -1,3 +1,5 @@
 .env
 token.json
 node_modules
+saves
+public/index.html
