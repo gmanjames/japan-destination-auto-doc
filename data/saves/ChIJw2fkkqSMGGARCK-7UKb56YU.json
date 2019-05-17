@@ -1,0 +1,364 @@
+{
+   "html_attributions" : [],
+   "result" : {
+      "address_components" : [
+         {
+            "long_name" : "10",
+            "short_name" : "10",
+            "types" : [ "premise" ]
+         },
+         {
+            "long_name" : "31",
+            "short_name" : "31",
+            "types" : [ "sublocality_level_4", "sublocality", "political" ]
+         },
+         {
+            "long_name" : "4-chōme",
+            "short_name" : "4-chōme",
+            "types" : [ "sublocality_level_3", "sublocality", "political" ]
+         },
+         {
+            "long_name" : "Jingūmae",
+            "short_name" : "Jingūmae",
+            "types" : [ "sublocality_level_2", "sublocality", "political" ]
+         },
+         {
+            "long_name" : "Shibuya City",
+            "short_name" : "Shibuya City",
+            "types" : [ "locality", "political" ]
+         },
+         {
+            "long_name" : "Tōkyō-to",
+            "short_name" : "Tōkyō-to",
+            "types" : [ "administrative_area_level_1", "political" ]
+         },
+         {
+            "long_name" : "Japan",
+            "short_name" : "JP",
+            "types" : [ "country", "political" ]
+         },
+         {
+            "long_name" : "150-0001",
+            "short_name" : "150-0001",
+            "types" : [ "postal_code" ]
+         }
+      ],
+      "adr_address" : "\u003cspan class=\"country-name\"\u003eJapan\u003c/span\u003e, \u003cspan class=\"postal-code\"\u003e〒150-0001\u003c/span\u003e \u003cspan class=\"region\"\u003eTōkyō-to\u003c/span\u003e, \u003cspan class=\"street-address\"\u003eShibuya City, Jingūmae, 4-chōme−31−１０\u003c/span\u003e YMスクエア 4F",
+      "formatted_address" : "Japan, 〒150-0001 Tōkyō-to, Shibuya City, Jingūmae, 4-chōme−31−１０ YMスクエア 4F",
+      "formatted_phone_number" : "03-5413-6142",
+      "geometry" : {
+         "location" : {
+            "lat" : 35.669152,
+            "lng" : 139.706108
+         },
+         "viewport" : {
+            "northeast" : {
+               "lat" : 35.6705009802915,
+               "lng" : 139.7074569802915
+            },
+            "southwest" : {
+               "lat" : 35.6678030197085,
+               "lng" : 139.7047590197085
+            }
+         }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "083d8aad605f04b062f839bc2b6fb7d01e8e754f",
+      "international_phone_number" : "+81 3-5413-6142",
+      "name" : "Kawaii Monster Cafe",
+      "opening_hours" : {
+         "open_now" : false,
+         "periods" : [
+            {
+               "close" : {
+                  "day" : 0,
+                  "time" : "2000"
+               },
+               "open" : {
+                  "day" : 0,
+                  "time" : "1100"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 1,
+                  "time" : "1630"
+               },
+               "open" : {
+                  "day" : 1,
+                  "time" : "1130"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 1,
+                  "time" : "2230"
+               },
+               "open" : {
+                  "day" : 1,
+                  "time" : "1800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 2,
+                  "time" : "1630"
+               },
+               "open" : {
+                  "day" : 2,
+                  "time" : "1130"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 2,
+                  "time" : "2230"
+               },
+               "open" : {
+                  "day" : 2,
+                  "time" : "1800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 3,
+                  "time" : "1630"
+               },
+               "open" : {
+                  "day" : 3,
+                  "time" : "1130"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 3,
+                  "time" : "2230"
+               },
+               "open" : {
+                  "day" : 3,
+                  "time" : "1800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 4,
+                  "time" : "1630"
+               },
+               "open" : {
+                  "day" : 4,
+                  "time" : "1130"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 4,
+                  "time" : "2230"
+               },
+               "open" : {
+                  "day" : 4,
+                  "time" : "1800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 5,
+                  "time" : "1630"
+               },
+               "open" : {
+                  "day" : 5,
+                  "time" : "1130"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 5,
+                  "time" : "2230"
+               },
+               "open" : {
+                  "day" : 5,
+                  "time" : "1800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 6,
+                  "time" : "1630"
+               },
+               "open" : {
+                  "day" : 6,
+                  "time" : "1130"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 6,
+                  "time" : "2230"
+               },
+               "open" : {
+                  "day" : 6,
+                  "time" : "1800"
+               }
+            }
+         ],
+         "weekday_text" : [
+            "Monday: 11:30 AM – 4:30 PM, 6:00 – 10:30 PM",
+            "Tuesday: 11:30 AM – 4:30 PM, 6:00 – 10:30 PM",
+            "Wednesday: 11:30 AM – 4:30 PM, 6:00 – 10:30 PM",
+            "Thursday: 11:30 AM – 4:30 PM, 6:00 – 10:30 PM",
+            "Friday: 11:30 AM – 4:30 PM, 6:00 – 10:30 PM",
+            "Saturday: 11:30 AM – 4:30 PM, 6:00 – 10:30 PM",
+            "Sunday: 11:00 AM – 8:00 PM"
+         ]
+      },
+      "photos" : [
+         {
+            "height" : 1536,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/105678209051191404941/photos\"\u003eYchan\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAA79SiCjv-s4lPN79utPWlZBgPX26o-mtMZUuO8G8-TmpG5q_7TJvrJQqhBH8deXlhyEP4MIRFQIhXiFmJCl1hXb0kq8tJXC5w9pNurVPyEB2un2UNMKh3SgoGOd05rIfdEhBH7J9lgvOeshI8eLwDbuNgGhSpgYRUR6bhXXVU4PamBdWySxanoA",
+            "width" : 2048
+         },
+         {
+            "height" : 4032,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/110695719832785963699/photos\"\u003eНаталья Чесалина\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAA1T3ZybOhBT-Vn7DEEJMQeqN1Jf8GAtLAK3V9BDVjrsuZJvaKUjLFYB-jh3Zck2PsvfvgWIXcEO-gATdGqiufAEC7llG7yKvrAXGTSx0yLwYylCjCqpwnM5CSQIBnzjdsEhC_8o4W09Maixm_hrtzlryUGhRcC_0Cyxa0fw2Ig7KfLn9Cwn6c7A",
+            "width" : 3024
+         },
+         {
+            "height" : 3462,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/107036369287874687448/photos\"\u003e陽子五十嵐\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAA0NSLPsNSeTFQEDBw65DcoFTeZ7kTQ5xi6R6qJQbJJynW5_4ASlTizmXFX5G1UDp8wZhTk7fzFkzeRqZ-PZAKGIJFAXlYfUuFC0-8DiyJpIH-TfauFpyT7QdvrJe68p1AEhA19eb4xPA0irBlgBZLCqW9GhQ4V8hLdglLK0UF4Wxd1T5ULF1-oA",
+            "width" : 4621
+         },
+         {
+            "height" : 4032,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/117883844392641901932/photos\"\u003ejeffrey mcwhorter\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAADR5PBDl7O4KDOCsVBwxl_8i0Zj6l4zFRFRwax4cQ4DOMdBZ-iF5FKxspNiO6yGlMyJPj8MeFc9zTDtQ6hNXlKCtSTG1a0oZKsIZLMqom4dk_j9pcqXGpmsxHfN0rdYk8EhB6LL6CdkNYIzicRduenIYbGhRatxfqbY8bCrVA3Mh4w-DiWn6MkQ",
+            "width" : 3024
+         },
+         {
+            "height" : 2592,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/114232490738830724963/photos\"\u003eClinton Collins\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAx-Og1-rrWRKHUNixhaH1pR7vxV1vIQajTVvl4BiN7rTsADU4YnyL8Cc5mLAPVF699zbZ2zle8lCnkv24PejDe4S1zQFXSGFq3pca20CxSD9a8YuxiSp2XZ9MGqKNdmBYEhAe-uNaih_Soz7pg0QRJrpmGhQErjrko1FeGyafwBgb5vtBVvnNYA",
+            "width" : 1944
+         },
+         {
+            "height" : 1108,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/114694951307646558854/photos\"\u003e猫ミホ\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAubLNz5N_A7Vcy5bY7StP0OSGzwfbsqkFgsw2YZI2UAs7qci1pKnrXQ9sL_Fh4mx2ve-K4pqje90rG90_Ktd3TnN1ygnAfMc33oHCvaudlJOVm5Gh4NjwvkzFuN5Ay62CEhB7vBKgMdf9HyGkqAT7PIUhGhRu9FEP0LtQOcunhxO8BKLWQjL8wA",
+            "width" : 1478
+         },
+         {
+            "height" : 1836,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/100008666386541412188/photos\"\u003eGwang IL Jang\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAgC2BPVJe7O0mafy1Gd_DMNy55dUXH-7Oq3HiZn9d-H6bLz5sMuvzTl_5kLiX7-zs-fE3af2OShM84jPmOvYzl1ocd2VuWVSeNhHVDbFkwbN5Ascey0MR8JjcOCdQ-3R4EhBM2H6mvT7-LsPvwdBC8BxbGhSjejwIN1MNN3SxiYtbyXVUpZEwzg",
+            "width" : 3264
+         },
+         {
+            "height" : 2340,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/109434425991300437126/photos\"\u003eShaun Rolston\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAASvl9GW8w4uju8W6GX3qT5Dtgbm8VE-de0ymffi2Hk62IC0-VNYXFp1-A5BakEyrvYVMe7HS-_1dyurQglNoK4XDmUT3FF8FJby8cQ6bc7NrSZFothez91xgoumvgKVDuEhArHlh1aVRxozcC5F3PxoaDGhRME3u3-sO9MBICrSf_TDgLmKzaZA",
+            "width" : 4160
+         },
+         {
+            "height" : 2832,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/117184723710017886268/photos\"\u003eTomek Wieczorek\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAnb-YZTCq85eDUIC-nu6Gnu8DEluInBU8ZN_KorugyxWvZnSnnapGCAUyRV-E4Q01u8RvhKO_Uqg5ez5YKTXUPYpNGuk95S5KcfdeHF526vFPu7Rp9kZuPdX7BH-kBRelEhCGoFeq-v5sPxGEguw7BpnTGhRtUsvFsjpUdo0KzNoYnRB19E__GQ",
+            "width" : 4256
+         },
+         {
+            "height" : 2448,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/116046582826913801222/photos\"\u003eJo Di\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAqeaXcd9kuQlsrR8cG7ig01mQvydb70PYHKcBRxhqoiYQaRwK4H24I7Yu9Gx0DPpl3-1XleEGJez57V4Ly4xAmoTR4sfw6ZITiajlBHRMMM8Ev9gc0EN4dYszG21eaaOIEhCJG403qnMk_PVHBqH44vH6GhRkwyM1BEyXAjAN4boZJzQ83uFOyQ",
+            "width" : 3264
+         }
+      ],
+      "place_id" : "ChIJw2fkkqSMGGARCK-7UKb56YU",
+      "plus_code" : {
+         "compound_code" : "MP94+MC Shibuya City, Tokyo, Japan",
+         "global_code" : "8Q7XMP94+MC"
+      },
+      "price_level" : 3,
+      "rating" : 3.7,
+      "reference" : "ChIJw2fkkqSMGGARCK-7UKb56YU",
+      "reviews" : [
+         {
+            "author_name" : "Allie McGuffey",
+            "author_url" : "https://www.google.com/maps/contrib/114561691707612192737/reviews",
+            "language" : "en",
+            "profile_photo_url" : "https://lh6.googleusercontent.com/-kLhm9mxCDH0/AAAAAAAAAAI/AAAAAAAAX9A/VriE4CPTfkk/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "in the last week",
+            "text" : "Loved coming here. My husband and I got there around 12:30 and maybe waited a total of 20-30 minutes which wasn't too bad. But once we walked in it was worth the wait. The food was really good, however I wish they had more vegetarian options. There was also a show during the time we went which was pretty interesting to watch!",
+            "time" : 1557756524
+         },
+         {
+            "author_name" : "Martin Tobies",
+            "author_url" : "https://www.google.com/maps/contrib/104797185053113246182/reviews",
+            "language" : "en",
+            "profile_photo_url" : "https://lh6.googleusercontent.com/-4mHnSzJx0-0/AAAAAAAAAAI/AAAAAAAABEU/TT5JGGkd22Y/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "4 weeks ago",
+            "text" : "Got the burlesque theme one for my sis as a birthday gift.\n\nJust amazing. Location is one of a kind. We got 3 meals (burger, pasta, meat) so far...we are 1,5 hours in...:)\n\nWe saw 2 parts of the show so far, final one next. Entertainment is just amazing.\n\nDrinks are good as well - booked all you can drink.\n\nWe paid 160€ for 2 persons - an amazing evening so far. Easily worth the money!\n\nEdit1: and dessert as well. :)",
+            "time" : 1555591219
+         },
+         {
+            "author_name" : "Bryson Engelen",
+            "author_url" : "https://www.google.com/maps/contrib/104999485341800904368/reviews",
+            "language" : "en",
+            "profile_photo_url" : "https://lh5.googleusercontent.com/-FHyMriK9mFo/AAAAAAAAAAI/AAAAAAAAAgM/jlXjuC8Ffnc/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "3 weeks ago",
+            "text" : "First off, I hate these kinds of places. But if you're going to a theme restaurant, particularly with kids, this is the one to go to. Great decorations and atmosphere, pretty decent food, a show, spacious, a decent adult drink menu and tasty drinks for the kids, friendly staff. If you promised the family to go to a theme restaurant on your Tokyo trip, skip all the other ones (unlike me *sigh*) and come here. Yes, it's pricey. But not really more so than other restaurants and certainly not other theme restaurants. And you only live once so maximize the value of the joy it will bring to those in your family who like this sort of thing and go here. My daughter was enraptured. And that's priceless. Skip the other hellholes like this though. And, like I said, I hate these kinds of places, but this is the best of those kinds of places. Love your kids, people. Make them happy. Spend $25 a head on this experience.",
+            "time" : 1556166678
+         },
+         {
+            "author_name" : "Tad K.",
+            "author_url" : "https://www.google.com/maps/contrib/108106183363695568978/reviews",
+            "language" : "en",
+            "profile_photo_url" : "https://lh6.googleusercontent.com/-bhiOvORlM3Y/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rf3vltROR5Cj_wX5MU37nMYgn0fCw/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating" : 3,
+            "relative_time_description" : "4 weeks ago",
+            "text" : "3 stars is average, not bad. We made online reservations for the burlesque show, every Thursday night, with all you can drink special. We did order their \"Colorful Poison Parfait\" which was much better than expected, especially after all the reviews about their okay to bad food. It was packed with different and distinct flavors if you take the time to eat it bit by bit. \nThe host was definitely entertaining throughout the show and did not seem to shun anyone when not on stage. The girls- well one had her routine down to match her physique, while the other 2 still have room to master their routine. That said none of the girls were bad. Ordering a straight whiskey would not be my recommendation as it was quite watered down to the point of tasting bad. The highball was okay and the beer was better than expected [not water down] but not as good as Asahi or the like.",
+            "time" : 1555542053
+         },
+         {
+            "author_name" : "Juniper Hunter",
+            "author_url" : "https://www.google.com/maps/contrib/115400696031431844687/reviews",
+            "language" : "en",
+            "profile_photo_url" : "https://lh6.googleusercontent.com/-jNHw08b6oVc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3resdPF5xM5rcJu4uhNUJn6hd07WTg/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating" : 1,
+            "relative_time_description" : "2 weeks ago",
+            "text" : "The colors were bright and colorful. The staff was smiley. But the food was mediocre and expensive for small portions.  Supposedly there's a 90 min time limit but we were here for 3 hours. Food was cold and we had to call the server for each course because the surrounding tables who came long after us were getting served before us. They also told us the blue burgers were sold out but those later tables all were able to get burgers. The initial fun only lasts for the first 15-20 minutes.",
+            "time" : 1556606316
+         }
+      ],
+      "scope" : "GOOGLE",
+      "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+      "url" : "https://maps.google.com/?cid=9649518169332363016",
+      "user_ratings_total" : 1237,
+      "utc_offset" : 540,
+      "vicinity" : "YMスクエア 4F, 4 Chome-31−１０ Jingumae, Shibuya City",
+      "website" : "http://kawaiimonster.jp/"
+   },
+   "status" : "OK"
+}

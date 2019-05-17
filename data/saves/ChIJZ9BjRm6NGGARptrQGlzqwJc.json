@@ -1,0 +1,313 @@
+{
+   "html_attributions" : [],
+   "result" : {
+      "address_components" : [
+         {
+            "long_name" : "屋上",
+            "short_name" : "屋上",
+            "types" : [ "floor" ]
+         },
+         {
+            "long_name" : "ワールドインポートマートビル",
+            "short_name" : "ワールドインポートマートビル",
+            "types" : [ "premise" ]
+         },
+         {
+            "long_name" : "3",
+            "short_name" : "3",
+            "types" : [ "premise" ]
+         },
+         {
+            "long_name" : "1",
+            "short_name" : "1",
+            "types" : [ "sublocality_level_4", "sublocality", "political" ]
+         },
+         {
+            "long_name" : "3-chōme",
+            "short_name" : "3-chōme",
+            "types" : [ "sublocality_level_3", "sublocality", "political" ]
+         },
+         {
+            "long_name" : "Higashiikebukuro",
+            "short_name" : "Higashiikebukuro",
+            "types" : [ "sublocality_level_2", "sublocality", "political" ]
+         },
+         {
+            "long_name" : "Toshima City",
+            "short_name" : "Toshima City",
+            "types" : [ "locality", "political" ]
+         },
+         {
+            "long_name" : "Tōkyō-to",
+            "short_name" : "Tōkyō-to",
+            "types" : [ "administrative_area_level_1", "political" ]
+         },
+         {
+            "long_name" : "Japan",
+            "short_name" : "JP",
+            "types" : [ "country", "political" ]
+         },
+         {
+            "long_name" : "170-0013",
+            "short_name" : "170-0013",
+            "types" : [ "postal_code" ]
+         }
+      ],
+      "adr_address" : "\u003cspan class=\"country-name\"\u003eJapan\u003c/span\u003e, \u003cspan class=\"postal-code\"\u003e〒170-0013\u003c/span\u003e \u003cspan class=\"region\"\u003eTōkyō-to\u003c/span\u003e, \u003cspan class=\"street-address\"\u003eToshima City, Higashiikebukuro, 3-chōme−1−３ ワールドインポートマートビル\u003c/span\u003e 屋上",
+      "formatted_address" : "Japan, 〒170-0013 Tōkyō-to, Toshima City, Higashiikebukuro, 3-chōme−1−３ ワールドインポートマートビル 屋上",
+      "formatted_phone_number" : "03-3989-3546",
+      "geometry" : {
+         "location" : {
+            "lat" : 35.728736,
+            "lng" : 139.719872
+         },
+         "viewport" : {
+            "northeast" : {
+               "lat" : 35.7300849802915,
+               "lng" : 139.7212209802915
+            },
+            "southwest" : {
+               "lat" : 35.7273870197085,
+               "lng" : 139.7185230197085
+            }
+         }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+      "id" : "1591922364577e767fcbc8bb13803177ef3ace92",
+      "international_phone_number" : "+81 3-3989-3546",
+      "name" : "KONICA MINOLTA Planetarium \"Manten\" in Sunshine City",
+      "opening_hours" : {
+         "open_now" : true,
+         "periods" : [
+            {
+               "close" : {
+                  "day" : 0,
+                  "time" : "2100"
+               },
+               "open" : {
+                  "day" : 0,
+                  "time" : "1000"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 1,
+                  "time" : "2100"
+               },
+               "open" : {
+                  "day" : 1,
+                  "time" : "1000"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 2,
+                  "time" : "2100"
+               },
+               "open" : {
+                  "day" : 2,
+                  "time" : "1000"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 3,
+                  "time" : "2100"
+               },
+               "open" : {
+                  "day" : 3,
+                  "time" : "1000"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 4,
+                  "time" : "2100"
+               },
+               "open" : {
+                  "day" : 4,
+                  "time" : "1000"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 5,
+                  "time" : "2100"
+               },
+               "open" : {
+                  "day" : 5,
+                  "time" : "1000"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 6,
+                  "time" : "2100"
+               },
+               "open" : {
+                  "day" : 6,
+                  "time" : "1000"
+               }
+            }
+         ],
+         "weekday_text" : [
+            "Monday: 10:00 AM – 9:00 PM",
+            "Tuesday: 10:00 AM – 9:00 PM",
+            "Wednesday: 10:00 AM – 9:00 PM",
+            "Thursday: 10:00 AM – 9:00 PM",
+            "Friday: 10:00 AM – 9:00 PM",
+            "Saturday: 10:00 AM – 9:00 PM",
+            "Sunday: 10:00 AM – 9:00 PM"
+         ]
+      },
+      "photos" : [
+         {
+            "height" : 1000,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/100909186529321564803/photos\"\u003eコニカミノルタプラネタリウム満天\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAA3FKR0qmOX2z_-CJR5R2C-p5kpaNVHUxVNGHI5_MkZeMDOBcj8gPBTROjxAW9NsasTUWko3w3X-OnM0daRGAk9Z0HpceqL8ACtcQ1V713X7TH-H1IkCKWBdNywA39vx76EhAlIZb_QeYYNLFoU_Uhhg5eGhSzHU8vVHXv6d8w0Xic5IBqouNc0A",
+            "width" : 1500
+         },
+         {
+            "height" : 1000,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/104321929482471522881/photos\"\u003eAkira Hirai\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAA9VMAfrqZXcrhqFK71PHu4_-ljZoeSfBHIgOIPT-UaGiK-M9HzWzU-rALLJCbXo4G1DyazbYWXo0BOKcH5w4bDmOhdsJOftMkDoKzZKsh-PE0Yr4A2VBRRm0e5vHxeI1uEhBkt6VUmkxURDMx_yEkP3XfGhS-MqKB3D4Hpd6NL-op4F8pxynnEw",
+            "width" : 1500
+         },
+         {
+            "height" : 2048,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/108365387733619928448/photos\"\u003e鈴木太郎\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAaYzxekX4V9CBjhFzNz3Dn1Li4suOI7ncHxB9bbtMKBr5H-Z-np2O35UA7XT7CywtwU3pQe7h7zNk2dGCwFh04wRJdTxnNFcpjuf43dfZPX7wq9BzsaolpscbQMMhV6trEhAw7EHZ-umD7vzFyRNdjLo-GhTb7Gg0jUi2bnbLuASyb1ATITL2UA",
+            "width" : 3648
+         },
+         {
+            "height" : 2160,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/105905009397561449631/photos\"\u003e佐藤健\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAsQR_MnHNec4kAw_EreIEGXNHUmZAUKyFse_CfWNh6rInyhvg6HtOKOdP20rAAzYOx6oQtqOkwV6Afth1_u4DQ2apr34S3XLRD7UdPmnLF7TcVN5_zvBil5i1xj2UJUd1EhDi2XyWB9uZsxF6R25otYgxGhQOq9h7uPrqhyc7GnOcFqRSQATqww",
+            "width" : 2880
+         },
+         {
+            "height" : 3792,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/108809885762183596482/photos\"\u003eQuapote Mase\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAucHaLEqJJt3RWOdGw04zaFTAufM1dawNkVZlqm09YlvKeI_s3HnRDL2fUjq7R3AUnP6sTNH_Op85MkgTuqB7ikMm6Bcf8in3brLwWT_kXeACMMMBvNg1rphwKzbaU5R1EhArBPHveEXgiX-p8w6xP8ojGhSS4OwcQ6I_8A2cmgfMXMhaJ-bW2A",
+            "width" : 5056
+         },
+         {
+            "height" : 3840,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/108634750516122268881/photos\"\u003eもちもち\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAbUi7c31xhja5aNgSiAq17RboR5uLHQNcJreioDNHjnDPWuJqpA2gIcU3fc6QthxhHJIwmASWdRH4s-zS6mZdAQT2A9kkjlCTd6KTinYspxBT6n1vdAJoLMzlvlzp6StdEhC-m5gMxjSnO1zRTl19m1f8GhT9VMV9Jr_CtpMey4tYIG1QKwsCxw",
+            "width" : 2160
+         },
+         {
+            "height" : 629,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/108174761040559619353/photos\"\u003emasami suzuki\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAA_qWOGcVwdL_-4tedho9CL-aD7uko90CCfKAVlIujIEavL9EUE5q9CR-NP9gHq829r9iyKVpCGKtVKNm2tXRjL-F0hEYsxPwxNMxdCxiLyVk4VuC2THvzC7Hg4HuD4Ez8EhAc9p-NDmep4IWGcLhos4tdGhQWF3n3zIrRhYR66kMf_UVDYLfXtg",
+            "width" : 970
+         },
+         {
+            "height" : 3456,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/104558662721464888941/photos\"\u003eJaroslaw Weber\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAH_dM7wSZv_Ef0fhyZdgTYfSCvGEfFQW-jjs2uSrakw32JHiwRJICkmx8htBbZl5vV5vWU8i6RdMdrbfD5jKW028ZP_XmoCjAdMrHlJqrNKsMozc6YXlVgIhBkUTonaE-EhA2Zo_tNlPEbUctfWd_x5fUGhTSo3x6AGJy9ZV6DXNYnA8t9YoLJA",
+            "width" : 4608
+         },
+         {
+            "height" : 4608,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/110813831873594688735/photos\"\u003e伊津野泰弘\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAbyXm4ReQx-FNbxyv6Jm9ukKRQB4thsGS19NLMWRNq2BNs3sYHUaEiDgsexer6rRnB7Uwy2YPtY_286pmtZ76a1QH1Q0B8J0tq4YEblO3-jRpi0nEDnO3QGOml5EARhCGEhDe2wGo7bH2OxAdWaOVqwGxGhTrpsuB3o2bAp9HZgfPyUs2RiqZTw",
+            "width" : 3456
+         },
+         {
+            "height" : 3840,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/100600886545181755847/photos\"\u003eY Satou\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAIwK7Fw97z5uT9PA6v0RNqIiu2N7gQ982pNQ9pIS2z0i1hAC2ised-6nA8-UYWXYXSUFAw1sPrPKMDLmp5RgbjJ9IuSzC02Yaj6-4DAK2g6WaW0bqOTxTVn5KRRaaxEC0EhCYTERjqECYijbtLc60Ero6GhSk0TmkNbCMeAFhkiFzE70vADUe0w",
+            "width" : 2160
+         }
+      ],
+      "place_id" : "ChIJZ9BjRm6NGGARptrQGlzqwJc",
+      "plus_code" : {
+         "compound_code" : "PPH9+FW Toshima City, Tokyo, Japan",
+         "global_code" : "8Q7XPPH9+FW"
+      },
+      "rating" : 3.8,
+      "reference" : "ChIJZ9BjRm6NGGARptrQGlzqwJc",
+      "reviews" : [
+         {
+            "author_name" : "Christopher R. Taylor",
+            "author_url" : "https://www.google.com/maps/contrib/107514615584741528578/reviews",
+            "language" : "en",
+            "profile_photo_url" : "https://lh5.googleusercontent.com/-pD2mTucj2PU/AAAAAAAAAAI/AAAAAAAAB20/e0lxDD8aii8/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+            "rating" : 4,
+            "relative_time_description" : "5 months ago",
+            "text" : "Went out to see \"Flowers blooming in the Sky\" I believe. Interesting show. It was pretty relaxing and most of the staff was super helpful. Most asking if we understand Japanese or if we wanted English Audio for the show. Otherwise, it's just a relaxing 40 minute show, with stars and video blended together.",
+            "time" : 1544439599
+         },
+         {
+            "author_name" : "Kisen Liang",
+            "author_url" : "https://www.google.com/maps/contrib/116756206593942295137/reviews",
+            "language" : "en",
+            "profile_photo_url" : "https://lh6.googleusercontent.com/-u_lyoz0QxwM/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdqTWUUwEzyUmuaExP68rW-EICkJg/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "a month ago",
+            "text" : "Nice place to spend an afternoon, st least a part of it. The milky way & moon is pretty relaxing, English narration device has a lovely voice pattern but it's hard to hear clearly since it doesn't have a good sound isolating earphone.",
+            "time" : 1553234044
+         },
+         {
+            "author_name" : "prasanth gv",
+            "author_url" : "https://www.google.com/maps/contrib/104978552815002237770/reviews",
+            "language" : "en",
+            "profile_photo_url" : "https://lh5.googleusercontent.com/-1WcRGwtNSJQ/AAAAAAAAAAI/AAAAAAAACog/-wwk4-aMQ78/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating" : 1,
+            "relative_time_description" : "4 months ago",
+            "text" : "Was watching 南極ヒーリング (Healing on the end of the earth) today .. Absolutely a waste of time and money.. \nContent is poor.. Not even sure what message they are really trying to carry. I was thinking it’s about science.. i would rather say it’s a mixture or philosophy and mystery..\n\n... I wouldn’t really recommend this to anyone..",
+            "time" : 1546416233
+         },
+         {
+            "author_name" : "Zhorak",
+            "author_url" : "https://www.google.com/maps/contrib/103023310118167623972/reviews",
+            "language" : "en",
+            "profile_photo_url" : "https://lh6.googleusercontent.com/-TGOE6bx3y6w/AAAAAAAAAAI/AAAAAAAAAEU/p5imKQSzc8c/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+            "rating" : 4,
+            "relative_time_description" : "7 months ago",
+            "text" : "The show we saw I think was named \"Dancing in the stars\" or something similar to that. Either way it was a great experience and we all enjoyed the show. Was maybe a bit pricey but I'd say it was worth the money. Foreigners recieve a device with earsbuds that has English translations.",
+            "time" : 1538038833
+         },
+         {
+            "author_name" : "Vânia Vicente",
+            "author_url" : "https://www.google.com/maps/contrib/113514412140540709368/reviews",
+            "language" : "en",
+            "profile_photo_url" : "https://lh6.googleusercontent.com/-R-yas_zdTNw/AAAAAAAAAAI/AAAAAAAAAE8/Ebf8UCHTQBg/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "a year ago",
+            "text" : "I really enjoyed the planetarium! Please be aware that this is a planetarium with a twist, there is a relaxation program with scents. I suggest you take a look at the program to decide what ticket to buy, the program guide is offered in english and japanese. One ticket gives you access to only one show and the general seat prices range from 1,500¥ to 1,700¥. English audio guides are available free of charge on most shows, just check with the staff. Went to see the 'Healing with twinkle stars through a forest', it's part of the relaxation program, I definitely recommend it.",
+            "time" : 1518436625
+         }
+      ],
+      "scope" : "GOOGLE",
+      "types" : [ "point_of_interest", "establishment" ],
+      "url" : "https://maps.google.com/?cid=10934997576563350182",
+      "user_ratings_total" : 180,
+      "utc_offset" : 540,
+      "vicinity" : "ワールドインポートマートビル, 屋上, 3 Chome-1−３ Higashiikebukuro, Toshima City",
+      "website" : "http://www.planetarium.konicaminolta.jp/manten/"
+   },
+   "status" : "OK"
+}

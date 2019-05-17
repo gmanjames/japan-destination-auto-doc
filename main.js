@@ -59,10 +59,51 @@ function createSave(title) {
 
 function getDetails(id) {
     console.log({id});
-    return request(
-        `https://maps.googleapis.com/maps/api/place/details/json?placeid=${id}&key=${process.env.API_KEY}`
-    )
+    return new Promise(
+        async (resolve, reject) => {
+
+            let listing = await getSavesListing();
+            if (!listing.includes(`${id}.json`)) {
+                console.log(`no detail for ${id}... fetching and saving to disk`)
+                let detail = await (request(
+                    `https://maps.googleapis.com/maps/api/place/details/json?placeid=${id}&key=${process.env.API_KEY}`
+                ))
+                fs.writeFile(`./data/saves/${id}.json`, detail, function(err) {
+                    if (err) return reject(err);
+                    resolve(detail);
+                })
+            }
+            else {
+                fs.readFile(`./data/saves/${id}.json`, function (err, dat) {
+                    if (err) return reject(err);
+                    resolve(dat)
+                })
+            }
+    })
 }
+
+function getPlaceIds() {
+    return new Promise(
+        (resolve, reject) => {
+
+        fs.readFile('./data/place_ids.txt', function(err, data) {
+            if (err) return reject(err);
+            resolve(data.toString().split(','));
+        })
+    })
+}
+
+function getSavesListing() {
+    return new Promise(
+        (resolve, reject) => {
+
+        fs.readdir('./data/saves/', function(err, files) {
+            if (err) return reject(err);
+            resolve(files);
+        })
+    })
+}
+
 
 // EXEC
 authorize(async function(auth) {
@@ -78,33 +119,38 @@ authorize(async function(auth) {
         return;
     }
 
-    // SAVE SHEET RESULTS IF NOT ALREADY SAVED
-    // Ultimately we'll want to save both the place 'search'
-    // AND the 'details' of that search for efficiency.
-    // Right now I'm mostly concerned with data consistency
-    // however so I'll keep making network requests with the
-    // first candidate id.
-    let details = [], finished = false;
+    let placeIds;
+    try {
+        placeIds = await getPlaceIds();
+    }
+    catch (err) {
+        console.error('error reading place ids.', err);
+        return;
+    }
+
+    let details = [];
     sheetData
-        .forEach(async (row) => {
-            
-            // corresponding to each column of the row
-            let timestamp, title, description, type;
+            .forEach(async (row) => {
 
-            timestamp   = row[0]; // form entry submitted
-            title       = row[1];
-            description = row[2];
-            type        = row[3];
+                // corresponding to each column of the row
+                let timestamp, title, description, type;
 
-            console.log(`checking for ${title}.json...`)
+                timestamp   = row[0]; // form entry submitted
+                title       = row[1];
+                description = row[2];
+                type        = row[3];
 
-            fs.readFile(`./saves/${title}.json`, async function(err, dat) {
-                if (err) {
-                    dat = await createSave(title)
-                };
-                
-                // Grab the first candidate id and use that to grab details
-                let detailDat = await getDetails(JSON.parse(dat).candidates[0].place_id), detail = JSON.parse(detailDat).result;
+                let detail, id;
+                if (!( id = placeIds.find(id => id.split(':')[0] === title) )) {
+                    // let detailDat = await getDetails(id); 
+                    // detail = JSON.parse(detailDat).result;
+                    let idSearch = await search(title), placeId = `${title}:${JSON.parse(idSearch).candidates[0].place_id}`;
+                    placeIds.push(
+                        placeId
+                    )
+                    id = placeId;
+                }
+                detail = JSON.parse(await getDetails(id.split(':')[1])).result;
                 details.push(
                     `
                     <div class="location">
@@ -115,13 +161,20 @@ authorize(async function(auth) {
                     </div>
                     `
                 );
-            })
         });
+    
 
     // Ya, ya I know its bad but I'm in a hurry
     setTimeout(() => {
 
         console.log(`${details.length} details fetched`);
+
+        // SAVE NEW LIST OF PLACE_IDS
+        fs.writeFile('./data/place_ids.txt', placeIds, function (err) {
+            if (err) {
+                console.error('could not write to place_ids.txt', err);
+            }
+        })
     
         Promise.all(details)
             .then((results) => {

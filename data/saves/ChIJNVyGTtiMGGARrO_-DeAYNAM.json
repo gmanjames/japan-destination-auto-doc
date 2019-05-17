@@ -1,0 +1,143 @@
+{
+   "html_attributions" : [],
+   "result" : {
+      "address_components" : [
+         {
+            "long_name" : "Kabukicho",
+            "short_name" : "Kabukicho",
+            "types" : [ "sublocality_level_2", "sublocality", "political" ]
+         },
+         {
+            "long_name" : "Shinjuku City",
+            "short_name" : "Shinjuku City",
+            "types" : [ "locality", "political" ]
+         },
+         {
+            "long_name" : "Tokyo",
+            "short_name" : "Tokyo",
+            "types" : [ "administrative_area_level_1", "political" ]
+         },
+         {
+            "long_name" : "Japan",
+            "short_name" : "JP",
+            "types" : [ "country", "political" ]
+         },
+         {
+            "long_name" : "160-0021",
+            "short_name" : "160-0021",
+            "types" : [ "postal_code" ]
+         }
+      ],
+      "adr_address" : "\u003cspan class=\"street-address\"\u003eKabukicho, Shinjuku City\u003c/span\u003e, \u003cspan class=\"region\"\u003eTokyo\u003c/span\u003e \u003cspan class=\"postal-code\"\u003e160-0021\u003c/span\u003e, \u003cspan class=\"country-name\"\u003eJapan\u003c/span\u003e",
+      "formatted_address" : "Kabukicho, Shinjuku City, Tokyo 160-0021, Japan",
+      "geometry" : {
+         "location" : {
+            "lat" : 35.6960834,
+            "lng" : 139.7026251
+         },
+         "viewport" : {
+            "northeast" : {
+               "lat" : 35.6983062,
+               "lng" : 139.7074411
+            },
+            "southwest" : {
+               "lat" : 35.6927792,
+               "lng" : 139.6988577
+            }
+         }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+      "id" : "8fe6289258bc84fe127d94132efeec435f27974d",
+      "name" : "Kabukicho",
+      "photos" : [
+         {
+            "height" : 1363,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/116814032363202226950/photos\"\u003eAndrey Deveykin\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAI_X60MyHYISje3Y-xYn3Qyq33r_8MCu3NO6dUXN4FTezIQJwjLPktbU2ffqE_y-NVUxsRhLaTSYk1Fkc08uJX623KtEZAGkn4y1ayllA_j04onHzV6Qc9GCqotTThjJYEhBV-2Vl-ie_MEw8llgSiPRnGhRrpr5xOtsvw_QOxmrPpkIQnHCvEA",
+            "width" : 2048
+         },
+         {
+            "height" : 1363,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/116814032363202226950/photos\"\u003eAndrey Deveykin\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAte33EcjXMnay_Xth6UJh8_kiKI2_BTs-mJKbpKLS8RbBoPjsqNG27jVNSX9Q9kTo53Z2SWmchV1rsStO1OyKpBZQV9MSDxyS_08lmNGU_Gb6etb9Ll2MOWI3_ODE2qTOEhDY7L0WIXYNC5jpXnuk93ehGhRNJhnqM_7uSgWUJscpaSNTTAegbA",
+            "width" : 2048
+         },
+         {
+            "height" : 1152,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/115791241813676791535/photos\"\u003efuji nixi\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAr4lauHa7NCfo_0VcclZ5ePsBbvgQF2URzjOQKIWqKY1jIrbWnJ6MTjZcsumn5VCKWZWHyzDbp1cpfyN9ms01qvtP5vT4_JSGn6ouvT3DI6MKZruOYVeXhk9Ausvd76lDEhAyS5Tw4UgKiUO9PFniuT3xGhSGBZfGPTA5oOhBMwE_77RhD-htyg",
+            "width" : 2048
+         },
+         {
+            "height" : 2448,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/113432703219765411648/photos\"\u003eBearspace\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAaImlvDWkg6CMSCtmAtUfP3RZO5F3aF021flbhLypyzthBbLYLZ7GoUUSP8f9yGKBVkIysx9NqNnwJkictNGkbESNYmPJ7DeEKLKi793uEM9dLPaF37aQN27Penqzy4J3EhBsXjZ3BK32AKHmbf1UJhQlGhTzSF0ekt5k8zeWfv766YH6igVZuA",
+            "width" : 3264
+         },
+         {
+            "height" : 2448,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/113432703219765411648/photos\"\u003eBearspace\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAA3XgDENIEKJ8T6ttA_cAfHGFtJb_adxUsqzCa6RVDaDfm2BxB4EuKHGYTQFOOUfZlNtxqIJb7Xj1oLiSevv3vTGXG81l46ddHFLnEzBLjPAN0kj6VLR7XG1Pm9ttrCTqrEhAP8fnkGE0J0QoUrPSafv3nGhSKa_NIt6szuy0kbAwp2JztGIjwBg",
+            "width" : 3264
+         },
+         {
+            "height" : 3096,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/107858374952977589059/photos\"\u003eyau king hei\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAAgYWP2cueAaQJqPRVHRQtxvDDCLTt7rhz2Nz0ejvw-unaZ2ObxIioOOq98qBAjdWyNcMl3O1An5JS5MICyEjGR-a8gktE9g80aXMuvNic3QncFkOIwGNUe8krSwGWrvSEhAHAhNdlDD8g2zPA5xP_5ZhGhSXsQgqg38M3tnaagnITpo1B56DyA",
+            "width" : 4128
+         },
+         {
+            "height" : 2048,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/115791241813676791535/photos\"\u003efuji nixi\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAuCGcBcUkAhY9ILnDcBDb8xQYXGKrCzfQel2iTw2bi2HO-E7ajLevjrMyWy_E1_gOdBMqJaPBVlVMQ2KPWPYJCNqh3hRsVCAyU6WXWHyQNTQOcX8FX4yTwpoRSgSpaTU0EhDn_MBPOxoLTryiHApoX9BdGhTTXcw9bJO7JDM7PxMEexSjR5wa5Q",
+            "width" : 1152
+         },
+         {
+            "height" : 4160,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/113270540559887419616/photos\"\u003e苅部治彦\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAKQjDOd5QuolfgBOkG0hRRIk7eB-1RJbmGp8V0sE4uTXLsMjrDAyC9g3CshwvdwTgkrFe_ee5jBgN7DId9AnV5tpNw1WuaVOD3Ra5vYYCpgJ4mzepX6GJ8GM3YmG1RmG1EhDYB8YwoXA8j-WoUv7jI7jnGhTmOtUz3sUw4Ui-OPo3v20xF5Iv0A",
+            "width" : 3120
+         },
+         {
+            "height" : 3840,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/109057151006298093585/photos\"\u003e啓小林\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAIhBIWBveaSh5ZZ3C0NXcoCrjsJnXptnSn9LXkUIFl4sM9AH00sKkLthoXZOiueNa1I2rsyti0qlyiDoNQiwo_AAhx7G-Voocm1Kl34erpIhFm3xmK91QON69Cc5QPQ-OEhB41zQLgCLHZi3x8qRKtjy-GhS0-jInHLwNSv5N8rMIUZyPZIF51Q",
+            "width" : 2160
+         },
+         {
+            "height" : 2448,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/105863171095958415382/photos\"\u003eたかいず\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAA8ptLs21wfa7et0K3QYtEGnlIKpcJD2FScHRPMcMHrFe2Z_QsS_rFqI2Vwf-odTKf_aw9FMOosujzE6fE-OJCO3gxkS0jjzzAWL4i2MT5MH9JlWRwRQa5uB1GC1oc_-YcEhBHPiVjSxR5-HjEyXhdc09KGhQFuGNIeZlIWP9JgV2NaEJtlQddMg",
+            "width" : 3264
+         }
+      ],
+      "place_id" : "ChIJNVyGTtiMGGARrO_-DeAYNAM",
+      "reference" : "ChIJNVyGTtiMGGARrO_-DeAYNAM",
+      "scope" : "GOOGLE",
+      "types" : [ "sublocality_level_2", "sublocality", "political" ],
+      "url" : "https://maps.google.com/?q=Kabukicho,+Shinjuku+City,+Tokyo+160-0021,+Japan&ftid=0x60188cd84e865c35:0x33418e00dfeefac",
+      "utc_offset" : 540,
+      "vicinity" : "Kabukicho"
+   },
+   "status" : "OK"
+}
