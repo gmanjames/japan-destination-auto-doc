@@ -125,12 +125,11 @@ authorize(async function(auth) {
             .forEach(async (row) => {
 
                 // corresponding to each column of the row
-                let timestamp, title, description, type;
+                let timestamp, title, description;
 
                 timestamp   = row[0]; // form entry submitted
                 title       = row[1];
                 description = row[2];
-                type        = row[3];
 
                 let detail, id;
                 if (!( id = placeIds.find(id => id.split(':')[0] === title) )) {
