@@ -32,29 +32,13 @@ function search(title) {
     )
 }
 
-function createSave(title) {
-    console.log(`writing ${title}.json`);
-
-    return new Promise(
-        async (resolve, reject) => {
-
-        let placeSearch;
-        try {
-            placeSearch = await search(title);
+function getPhoto(photoref) {
+    return request(
+        `https://maps.googleapis.com/maps/api/place/photo?photoreference=${photoref}&key=${process.env.API_KEY}&maxwidth=400`,
+        {
+            encoding: 'base64'
         }
-        catch (err) {
-            console.log(`error occurred for place search with input = ${title}`);
-            return reject();
-        }
-        if (placeSearch) {
-            fs.writeFile(`./saves/${title}.json`, placeSearch, function(err) {
-                if (err) throw err;
-                resolve(placeSearch);
-            });
-        } else {
-            reject(`bad place search result for ${title}`);
-        }
-    });
+    )
 }
 
 function getDetails(id) {
@@ -68,7 +52,7 @@ function getDetails(id) {
                 let detail = await (request(
                     `https://maps.googleapis.com/maps/api/place/details/json?placeid=${id}&key=${process.env.API_KEY}`
                 ))
-                fs.writeFile(`./data/saves/${id}.json`, detail, function(err) {
+                fs.writeFile(`./data/saves/${id}.json`, detail, {encoding: 'utf-8'}, function(err) {
                     if (err) return reject(err);
                     resolve(detail);
                 })
@@ -93,15 +77,23 @@ function getPlaceIds() {
     })
 }
 
-function getSavesListing() {
+function getListing(dir) {
     return new Promise(
         (resolve, reject) => {
 
-        fs.readdir('./data/saves/', function(err, files) {
+        fs.readdir(dir, function(err, files) {
             if (err) return reject(err);
             resolve(files);
         })
     })
+}
+
+function getPhotosListing() {
+    return getListing('./data/photos');
+}
+
+function getSavesListing() {
+    return getListing('./data/saves/');
 }
 
 
@@ -152,14 +144,7 @@ authorize(async function(auth) {
                 }
                 detail = JSON.parse(await getDetails(id.split(':')[1])).result;
                 details.push(
-                    `
-                    <div class="location">
-                        <h2>${title}</h2>
-                        <p>${detail.formatted_address}</p>
-                        <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:${detail.place_id}&key=${process.env.API_KEY}" allowfullscreen></iframe>
-                        <p>${description}</p>
-                    </div>
-                    `
+                    detail
                 );
         });
     
@@ -170,16 +155,43 @@ authorize(async function(auth) {
         console.log(`${details.length} details fetched`);
 
         // SAVE NEW LIST OF PLACE_IDS
-        fs.writeFile('./data/place_ids.txt', placeIds, function (err) {
+        fs.writeFile('./data/place_ids.txt', placeIds, {encoding: 'utf-8'}, function (err) {
             if (err) {
                 console.error('could not write to place_ids.txt', err);
             }
         })
     
         Promise.all(details)
-            .then((results) => {
+            .then(async (results) => {
                 
-                // GENERATE THE HTML DOC PAGE
+                // SAVE PHOTOS IF NONE FOR PLACE
+                let listing = await getPhotosListing();
+                results.
+                    forEach(async (result) => {
+                        if (!listing.includes(result.place_id)) {
+                            console.log(`fetching images for ${result.place_id}`)
+                            let dir = `./data/photos/${result.place_id}`;
+                            fs.mkdir(dir, function (err) {
+                                if (err) throw err;
+                                if (result.photos.length > 0) {
+                                    let slice = result.photos.slice(0, 5);
+                                    for (let i in slice) {
+                                        let photo = slice[i];
+                                        getPhoto(photo.photo_reference).then(function(photoDat) {
+                                            fs.writeFile(`${dir}/${result.place_id}_${i}.jfif`, photoDat.toString(), 'base64', function (err) {
+                                                if (err) {
+                                                    console.error(`could not create photo`, err)
+                                                }
+                                            })
+                                        })
+                                    }
+                                }
+                            })
+                        }
+                    })
+                            
+
+                // FINALLY GENERATE THE HTML DOC PAGE
                 fs.writeFile('./public/index.html', require('./modules/template')(results)
                 , function(err) {
                     if (err) throw err;
