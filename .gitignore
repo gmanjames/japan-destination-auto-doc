@@ -1,6 +1,6 @@
 .env
 token.json
 node_modules
-./data/saves/*
+data/saves/*.json
 public/index.html
 .vscode
